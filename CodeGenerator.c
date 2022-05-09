@@ -1,3 +1,14 @@
+// Algo:
+// 1. Start
+// 2. Get address code sequence.
+// 3. Determine current location of 3 using address (for 1st operand).
+// 4. If current location not already exist generate move (B,O).
+// 5. Update address of A(for 2nd operand).
+// 6. If current value of B and () is null,exist.
+// 7. If they generate operator () A,3 ADPR.
+// 8. Store the move instruction in memory
+// 9. Stop
+
 //C program to implement Simple Code Generator.
 #include<stdio.h>
 #include<conio.h>
